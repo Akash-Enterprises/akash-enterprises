@@ -2,11 +2,58 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Stretch Film | Akash Enterprises</title>
-
-    <meta name="description" content="High-quality stretch film for secure pallet wrapping, packaging, and load stabilization. Strong, flexible, and tear-resistant for industrial and commercial use.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <title>Stretch Film – Machine & Hand Stretch Wrap for Pallets | Akash Enterprises</title>
+    <meta name="description" content="LLDPE stretch film for pallet wrapping, securing loads, and industrial packaging. Available in hand wrap and machine rolls.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://akash-enterprises.vercel.app/products/stretch-film.html">
+    <link rel="icon" type="image/png" href="../images/logo.png">
+    <link rel="apple-touch-icon" href="../images/logo.png">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://akash-enterprises.vercel.app/products/stretch-film.html">
+    <meta property="og:title" content="Stretch Film – Machine & Hand Stretch Wrap for Pallets | Akash Enterprises">
+    <meta property="og:description" content="LLDPE stretch film for pallet wrapping, securing loads, and industrial packaging. Available in hand wrap and machine rolls.">
+    <meta property="og:image" content="https://akash-enterprises.vercel.app/images/logo.png">
+    <meta property="og:site_name" content="Akash Enterprises">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Stretch Film – Machine & Hand Stretch Wrap for Pallets | Akash Enterprises">
+    <meta name="twitter:description" content="LLDPE stretch film for pallet wrapping, securing loads, and industrial packaging. Available in hand wrap and machine rolls.">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {"@type":"ListItem","position":1,"name":"Home","item":"https://akash-enterprises.vercel.app/"},
+            {"@type":"ListItem","position":2,"name":"Packaging & Logistics Essentials","item":"https://akash-enterprises.vercel.app/categories/packaging-logistics.html"},
+            {"@type":"ListItem","position":3,"name":"Stretch Film","item":"https://akash-enterprises.vercel.app/products/stretch-film.html"}
+          ]
+        },
+        {
+          "@type": "Product",
+          "name": "Stretch Film",
+          "description": "LLDPE stretch film for pallet wrapping, securing loads, and industrial packaging. Available in hand wrap and machine rolls.",
+          "url": "https://akash-enterprises.vercel.app/products/stretch-film.html",
+          "image": "https://akash-enterprises.vercel.app/images/products/stretch-film/stretch-film-1.jpg",
+          "brand": {
+            "@type": "Brand",
+            "name": "Akash Enterprises"
+          },
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "INR",
+            "availability": "https://schema.org/InStock",
+            "seller": {
+              "@type": "Organization",
+              "name": "Akash Enterprises",
+              "telephone": "+918089822421"
+            }
+          }
+        }
+      ]
+    }
+    </script>
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
@@ -14,12 +61,14 @@
 <!-- ================= HEADER ================= -->
 <header class="site-header">
     <div class="container header-content">
-        <div class="logo-area">
-            <img src="../images/logo.png" alt="Akash Enterprises Logo" class="logo">
+        <a href="../index.html" class="logo-area" aria-label="Akash Enterprises – Home">
+            <img src="../images/logo.png" alt="Akash Enterprises Logo" class="logo" width="54" height="54" loading="eager">
             <span class="company-name">Akash Enterprises</span>
-        </div>
-
-        <nav class="main-nav">
+        </a>
+        <button class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+            <span></span><span></span><span></span>
+        </button>
+        <nav class="main-nav" aria-label="Primary navigation">
             <a href="../index.html">Home</a>
             <a href="../index.html#categories">Products</a>
             <a href="../index.html#contact">Contact</a>
@@ -27,6 +76,16 @@
     </div>
 </header>
 
+<!-- ================= BREADCRUMB ================= -->
+<nav class="breadcrumb" aria-label="Breadcrumb">
+    <div class="container">
+        <ol>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../categories/packaging-logistics.html">Packaging & Logistics Essentials</a></li>
+            <li><span aria-current="page">Stretch Film</span></li>
+        </ol>
+    </div>
+</nav>
 <!-- ================= PRODUCT HERO ================= -->
 <section class="hero">
     <div class="container">
@@ -46,11 +105,11 @@
 
             <!-- LEFT: IMAGE GALLERY -->
             <div class="product-gallery">
-                <img src="../images/products/stretch-film/stretch-film-1.jpg" alt="Stretch Film">
-                <img src="../images/products/stretch-film/stretch-film-2.jpg" alt="Stretch Film">
-                <img src="../images/products/stretch-film/stretch-film-3.jpg" alt="Stretch Film">
-                <img src="../images/products/stretch-film/stretch-film-4.jpg" alt="Stretch Film">
-                <img src="../images/products/stretch-film/stretch-film-5.jpg" alt="Stretch Film">
+                <img src="../images/products/stretch-film/stretch-film-1.jpg" alt="Stretch Film" loading="lazy">
+                <img src="../images/products/stretch-film/stretch-film-2.jpg" alt="Stretch Film" loading="lazy">
+                <img src="../images/products/stretch-film/stretch-film-3.jpg" alt="Stretch Film" loading="lazy">
+                <img src="../images/products/stretch-film/stretch-film-4.jpg" alt="Stretch Film" loading="lazy">
+                <img src="../images/products/stretch-film/stretch-film-5.jpg" alt="Stretch Film" loading="lazy">
             </div>
 
             <!-- RIGHT: PRODUCT INFO -->
@@ -172,18 +231,13 @@
 <!-- ================= FOOTER ================= -->
 <footer class="site-footer">
     <div class="container">
-        <p>© 2026 Akash Enterprises. All rights reserved.</p>
+        <p>&copy; 2026 Akash Enterprises. All rights reserved.</p>
     </div>
 </footer>
 
-<!-- ================= WHATSAPP FLOAT (PRODUCT-SPECIFIC) ================= -->
-<a
-    class="whatsapp-float"
-    href="https://wa.me/918089822421?text=Hello%20Akash%20Enterprises%2C%0A%0AI%20am%20interested%20in%20the%20following%20product%3A%0A%0A%E2%80%A2%20Product%20Name%3A%20Stretch%20Film%0A%E2%80%A2%20Quantity%20Required%3A%0A%E2%80%A2%20Usage%20%2F%20Application%3A%0A%E2%80%A2%20Delivery%20Location%20(City%2C%20State)%3A%0A%E2%80%A2%20Expected%20Delivery%20Timeline%3A%0A%E2%80%A2%20Contact%20Name%3A%0A%E2%80%A2%20Contact%20Number%3A%0A%0APlease%20get%20back%20to%20me%20with%20details."
-    target="_blank"
-    aria-label="Chat on WhatsApp"
->
-    <img src="../images/whatsapp.svg" alt="WhatsApp" style="width:32px;height:32px;">
+<!-- ================= WHATSAPP FLOAT ================= -->
+<a class="whatsapp-float" href="https://wa.me/918089822421?text=Hello%20Akash%20Enterprises%2C%0A%0AI%20am%20interested%20in%20the%20following%20product%3A%0A%0A%E2%80%A2%20Product%20Name%3A%20Stretch%20Film%0A%E2%80%A2%20Quantity%20Required%3A%0A%E2%80%A2%20Usage%20/%20Application%3A%0A%E2%80%A2%20Delivery%20Location%20%28City%2C%20State%29%3A%0A%E2%80%A2%20Expected%20Delivery%20Timeline%3A%0A%E2%80%A2%20Contact%20Name%3A%0A%E2%80%A2%20Contact%20Number%3A%0A%0APlease%20get%20back%20to%20me%20with%20details." target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+    <img src="../images/whatsapp.svg" alt="WhatsApp" width="32" height="32" loading="lazy">
 </a>
 
 <script src="../js/main.js"></script>

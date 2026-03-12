@@ -1,94 +1,84 @@
 /* =====================================================
-   Akash Enterprises - Global JavaScript (Enhanced UX)
-   Features:
-   - Image fade-in on load
-   - Product image lightbox (click to view)
+   Akash Enterprises - Global JavaScript v2.0
+   - Image fade-in (CLS-safe)
+   - Hamburger mobile nav toggle
+   - Product image lightbox (CSS-class driven)
    - Keyboard & mobile friendly
-   - No dependencies
    ===================================================== */
 
 document.addEventListener("DOMContentLoaded", function () {
 
-    /* ---------------------------------------------
-       IMAGE FADE-IN (PREVENT BLANK FLASH)
-    --------------------------------------------- */
-    const images = document.querySelectorAll("img");
-
-    images.forEach(img => {
+    /* --------------------------------------------------
+       IMAGE FADE-IN
+    -------------------------------------------------- */
+    document.querySelectorAll("img").forEach(function(img) {
         if (img.complete) {
             img.classList.add("loaded");
         } else {
-            img.addEventListener("load", () => {
-                img.classList.add("loaded");
-            });
+            img.addEventListener("load", function() { img.classList.add("loaded"); });
         }
     });
 
-    /* ---------------------------------------------
+    /* --------------------------------------------------
+       HAMBURGER MOBILE NAV
+    -------------------------------------------------- */
+    var toggle = document.querySelector(".nav-toggle");
+    var nav    = document.querySelector(".main-nav");
+
+    if (toggle && nav) {
+        toggle.addEventListener("click", function() {
+            var isOpen = nav.classList.toggle("open");
+            toggle.classList.toggle("open", isOpen);
+            toggle.setAttribute("aria-expanded", isOpen ? "true" : "false");
+        });
+
+        // Close nav when a link is clicked (single-page nav jumps)
+        nav.querySelectorAll("a").forEach(function(link) {
+            link.addEventListener("click", function() {
+                nav.classList.remove("open");
+                toggle.classList.remove("open");
+                toggle.setAttribute("aria-expanded", "false");
+            });
+        });
+    }
+
+    /* --------------------------------------------------
        LIGHTBOX FOR PRODUCT IMAGES
-    --------------------------------------------- */
+       (styles live in style.css — no JS injection)
+    -------------------------------------------------- */
+    var overlay = document.createElement("div");
+    overlay.id  = "lightbox-overlay";
+    overlay.setAttribute("role", "dialog");
+    overlay.setAttribute("aria-modal", "true");
+    overlay.setAttribute("aria-label", "Image viewer");
 
-    // Create lightbox elements once
-    const lightboxOverlay = document.createElement("div");
-    lightboxOverlay.id = "lightbox-overlay";
+    var lightboxImg = document.createElement("img");
+    lightboxImg.id  = "lightbox-image";
+    lightboxImg.alt = "Enlarged product image";
 
-    const lightboxImage = document.createElement("img");
-    lightboxImage.id = "lightbox-image";
+    overlay.appendChild(lightboxImg);
+    document.body.appendChild(overlay);
 
-    lightboxOverlay.appendChild(lightboxImage);
-    document.body.appendChild(lightboxOverlay);
-
-    // Styles injected via JS to avoid CSS file dependency
-    Object.assign(lightboxOverlay.style, {
-        position: "fixed",
-        top: "0",
-        left: "0",
-        width: "100%",
-        height: "100%",
-        background: "rgba(0,0,0,0.85)",
-        display: "none",
-        alignItems: "center",
-        justifyContent: "center",
-        zIndex: "9999",
-        cursor: "zoom-out",
-        padding: "1rem"
-    });
-
-    Object.assign(lightboxImage.style, {
-        maxWidth: "100%",
-        maxHeight: "100%",
-        objectFit: "contain",
-        background: "#fff",
-        borderRadius: "8px"
-    });
-
-    // Open lightbox
-    document.addEventListener("click", function (e) {
-        const target = e.target;
-
-        // Only trigger for product gallery images
-        if (target.tagName === "IMG" && target.closest(".product-gallery")) {
-            lightboxImage.src = target.src;
-            lightboxOverlay.style.display = "flex";
+    // Open lightbox on product gallery images
+    document.addEventListener("click", function(e) {
+        if (e.target.tagName === "IMG" && e.target.closest(".product-gallery")) {
+            lightboxImg.src = e.target.src;
+            overlay.classList.add("active");
             document.body.style.overflow = "hidden";
         }
     });
 
-    // Close on click outside image
-    lightboxOverlay.addEventListener("click", function () {
-        closeLightbox();
-    });
+    // Close on overlay click
+    overlay.addEventListener("click", closeLightbox);
 
-    // Close on ESC key
-    document.addEventListener("keydown", function (e) {
-        if (e.key === "Escape" && lightboxOverlay.style.display === "flex") {
-            closeLightbox();
-        }
+    // Close on ESC
+    document.addEventListener("keydown", function(e) {
+        if (e.key === "Escape") closeLightbox();
     });
 
     function closeLightbox() {
-        lightboxOverlay.style.display = "none";
-        lightboxImage.src = "";
+        overlay.classList.remove("active");
+        lightboxImg.src = "";
         document.body.style.overflow = "";
     }
 

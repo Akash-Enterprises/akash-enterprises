@@ -1,0 +1,15 @@
+# Office documents (should not be in website repo)
+*.docx
+*.xlsx
+*.pptx
+*.doc
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+*.swp
+*.swo
