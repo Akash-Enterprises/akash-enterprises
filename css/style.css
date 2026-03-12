@@ -334,28 +334,37 @@ img.loaded { opacity: 1; }
 
 .industry-card {
     background: #ffffff;
-    border: 1px solid #e5ede9;
+    border: 1px solid #e5e7eb;
     border-radius: var(--radius);
-    padding: 1.6rem 1.4rem;
+    overflow: hidden;
     transition: box-shadow var(--transition), transform var(--transition);
 }
 .industry-card:hover {
-    box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+    box-shadow: 0 8px 28px rgba(0,0,0,0.1);
     transform: translateY(-3px);
 }
-.industry-icon {
-    width: 56px;
-    height: 56px;
-    background: #fdecea;
-    border-radius: var(--radius);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 1rem;
+.industry-img-wrap {
+    width: 100%;
+    aspect-ratio: 16/9;
+    overflow: hidden;
+    background: var(--bg-soft);
 }
-.industry-icon svg { width: 36px; height: 36px; }
-.industry-card h3 { font-size: 1rem; font-weight: 700; margin-bottom: 0.5rem; color: var(--text-dark); }
-.industry-card p { font-size: 0.875rem; color: var(--text-muted); line-height: 1.65; margin-bottom: 1rem; }
+.industry-img-wrap img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+    transition: transform 0.4s ease;
+}
+.industry-card:hover .industry-img-wrap img {
+    transform: scale(1.04);
+}
+.industry-card-body {
+    padding: 1.1rem 1.2rem 1.3rem;
+}
+.industry-card h3 { font-size: 1rem; font-weight: 700; margin-bottom: 0.4rem; color: var(--text-dark); }
+.industry-card p { font-size: 0.875rem; color: var(--text-muted); line-height: 1.65; margin-bottom: 0.75rem; }
 .industry-link {
     font-size: 0.875rem;
     font-weight: 600;
@@ -495,7 +504,7 @@ img.loaded { opacity: 1; }
     transition: box-shadow var(--transition), transform var(--transition);
 }
 .supply-card:hover { box-shadow: 0 8px 24px rgba(0,0,0,0.1); transform: translateY(-3px); }
-.supply-card img { width: 100%; aspect-ratio: 16/9; object-fit: cover; display: block; }
+.supply-card img { width: 100%; aspect-ratio: 16/9; min-height: 180px; max-height: 220px; object-fit: cover; object-position: center; display: block; }
 .supply-card-body { padding: 1rem 1.1rem 1.2rem; }
 .supply-card-body h3 { font-size: 0.95rem; font-weight: 700; color: var(--text-dark); margin-bottom: 0.4rem; }
 .supply-card-body p { font-size: 0.83rem; color: var(--text-muted); line-height: 1.6; }
