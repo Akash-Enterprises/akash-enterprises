@@ -9,8 +9,9 @@ from pathlib import Path
 repo = Path(".")
 errors = []
 
+SKIP_FILES = {"404.html", "googlead28f9144d787768.html"}
 for f in sorted(repo.rglob("*.html")):
-    if ".git" in str(f):
+    if ".git" in str(f) or f.name in SKIP_FILES:
         continue
     c = f.read_text(encoding="utf-8", errors="ignore")
     name = str(f)

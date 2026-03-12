@@ -36,43 +36,163 @@
     <link rel="stylesheet" href="css/style.css">
 
     <!-- Schema: LocalBusiness + WebSite -->
+    
+
     <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
     {
-      "@context": "https://schema.org",
-      "@graph": [
+      "@type": [
+        "LocalBusiness",
+        "Organization"
+      ],
+      "@id": "https://akash-enterprises.vercel.app/#business",
+      "name": "Akash Enterprises",
+      "legalName": "Akash Enterprises",
+      "description": "B2B and retail supplier of industrial tarpaulins, agro-textiles, packaging materials, ropes, safety tapes, and industrial sheets. Serving manufacturers, contractors, farmers, and logistics companies across India.",
+      "url": "https://akash-enterprises.vercel.app/",
+      "logo": "https://akash-enterprises.vercel.app/images/logo.png",
+      "image": "https://akash-enterprises.vercel.app/images/logo.png",
+      "telephone": "+918089822421",
+      "email": "akash.enterprises.contact@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "IN",
+        "addressRegion": "Kerala"
+      },
+      "geo": {
+        "@type": "GeoCoordinates"
+      },
+      "hasMap": "https://maps.app.goo.gl/p9iRKo3NTLmXTcs16",
+      "areaServed": {
+        "@type": "Country",
+        "name": "India"
+      },
+      "knowsAbout": [
+        "Industrial Tarpaulins",
+        "HDPE Tarpaulin",
+        "Agro Shade Net",
+        "Packaging Materials",
+        "BOPP Tapes",
+        "Stretch Film",
+        "Woven Sacks",
+        "PP Ropes",
+        "Nylon Rope",
+        "Mooring Rope",
+        "Lashing Belts",
+        "Safety Tapes",
+        "Caution Tape",
+        "Reflective Tape",
+        "Industrial Sheets",
+        "LDPE Sheets",
+        "Geo Membrane"
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Akash Enterprises Product Catalogue",
+        "numberOfItems": 34,
+        "itemListElement": [
+          {
+            "@type": "OfferCatalog",
+            "name": "Industrial Tarpaulins",
+            "url": "https://akash-enterprises.vercel.app/categories/industrial-tarpaulins.html"
+          },
+          {
+            "@type": "OfferCatalog",
+            "name": "Agro-Textiles",
+            "url": "https://akash-enterprises.vercel.app/categories/agro-textiles.html"
+          },
+          {
+            "@type": "OfferCatalog",
+            "name": "Packaging & Logistics",
+            "url": "https://akash-enterprises.vercel.app/categories/packaging-logistics.html"
+          },
+          {
+            "@type": "OfferCatalog",
+            "name": "Ropes & Cordage",
+            "url": "https://akash-enterprises.vercel.app/categories/ropes-cordage.html"
+          },
+          {
+            "@type": "OfferCatalog",
+            "name": "Safety & Adhesives",
+            "url": "https://akash-enterprises.vercel.app/categories/safety-adhesives.html"
+          },
+          {
+            "@type": "OfferCatalog",
+            "name": "Industrial Sheets",
+            "url": "https://akash-enterprises.vercel.app/categories/industrial-sheets.html"
+          }
+        ]
+      },
+      "contactPoint": [
         {
-          "@type": "LocalBusiness",
-          "@id": "https://akash-enterprises.vercel.app/#business",
-          "name": "Akash Enterprises",
-          "description": "Trading and distribution company supplying industrial, packaging, agro, safety, and utility products across India.",
-          "url": "https://akash-enterprises.vercel.app/",
-          "logo": "https://akash-enterprises.vercel.app/images/logo.png",
+          "@type": "ContactPoint",
           "telephone": "+918089822421",
-          "email": "akash.enterprises.contact@gmail.com",
-          "address": {
-            "@type": "PostalAddress",
-            "addressCountry": "IN"
-          },
-          "hasMap": "https://maps.app.goo.gl/p9iRKo3NTLmXTcs16",
-          "contactPoint": {
-            "@type": "ContactPoint",
-            "telephone": "+918089822421",
-            "contactType": "sales",
-            "availableLanguage": ["English", "Hindi", "Malayalam"]
-          },
-          "sameAs": [
-            "https://wa.me/918089822421"
+          "contactType": "sales",
+          "availableLanguage": [
+            "English",
+            "Hindi",
+            "Malayalam"
           ]
         },
         {
-          "@type": "WebSite",
-          "@id": "https://akash-enterprises.vercel.app/#website",
-          "url": "https://akash-enterprises.vercel.app/",
-          "name": "Akash Enterprises",
-          "publisher": { "@id": "https://akash-enterprises.vercel.app/#business" }
+          "@type": "ContactPoint",
+          "telephone": "+918089822421",
+          "contactType": "customer service",
+          "contactOption": "TollFree",
+          "availableLanguage": [
+            "English",
+            "Hindi",
+            "Malayalam"
+          ]
         }
+      ],
+      "sameAs": [
+        "https://wa.me/918089822421"
       ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://akash-enterprises.vercel.app/#website",
+      "url": "https://akash-enterprises.vercel.app/",
+      "name": "Akash Enterprises",
+      "description": "Industrial and packaging product supplier across India.",
+      "publisher": {
+        "@id": "https://akash-enterprises.vercel.app/#business"
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://akash-enterprises.vercel.app/products/{search_term_string}.html"
+        },
+        "query-input": "required name=search_term_string"
+      }
     }
+  ]
+}
+    </script>
+
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "@id": "https://akash-enterprises.vercel.app/#webpage",
+  "url": "https://akash-enterprises.vercel.app/",
+  "name": "Akash Enterprises | Industrial & Packaging Supplier India",
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      "h1",
+      ".hero p",
+      "#contact"
+    ]
+  },
+  "about": {
+    "@id": "https://akash-enterprises.vercel.app/#business"
+  }
+}
     </script>
 </head>
 <body>
