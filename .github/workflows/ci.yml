@@ -1,0 +1,38 @@
+name: CI — HTML & SEO Validation
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate:
+    name: Validate HTML + SEO
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Run structural validation
+        run: python3 .github/scripts/validate.py
+
+      - name: Check for broken internal links
+        run: python3 .github/scripts/check_links.py
+
+      - name: Verify sitemap has all HTML pages
+        run: python3 .github/scripts/check_sitemap.py
+
+      - name: Validate file sizes (no files over 5MB)
+        run: |
+          find . -not -path './.git/*' -type f -size +5M | while read f; do
+            echo "❌ File too large: $f"
+            exit 1
+          done
+          echo "✅ All files within size limits"

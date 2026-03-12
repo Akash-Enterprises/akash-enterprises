@@ -1,130 +1,136 @@
-# Akash Enterprises – Business Website
+# Akash Enterprises — Official Business Website
 
-This repository contains the official business website for **Akash Enterprises**, a trading and distribution company serving both **B2B** and **D2C** customers.
+[![CI – HTML & SEO Validation](https://github.com/Akash-Enterprises/akash-enterprises/actions/workflows/ci.yml/badge.svg)](https://github.com/Akash-Enterprises/akash-enterprises/actions/workflows/ci.yml)
 
-The website is built from scratch using **pure HTML, CSS, and JavaScript**, with zero paid tools, frameworks, or subscriptions.
+Official website for **Akash Enterprises**, a trading and distribution company supplying industrial, packaging, agro, safety, and utility products across India.
 
----
-
-## 🌐 Project Overview
-
-**Company Name:** Akash Enterprises  
-**Business Type:** Trading & Distribution  
-**Models Served:** B2B and D2C  
-**Product Range:** 34 SKUs across 6 categories  
-
-The website provides:
-- Clear product categorization
-- Individual category pages
-- Individual product detail pages (in progress)
-- Direct contact via phone, WhatsApp, email, and Google Maps
-- Fast, lightweight, SEO-friendly structure
+**Live site:** [akash-enterprises.vercel.app](https://akash-enterprises.vercel.app)
 
 ---
 
-## 🛠 Tech Stack (Zero Cost)
+## Quick Start
 
-- **HTML5** – Page structure
-- **CSS3** – Styling and responsive layout
-- **Vanilla JavaScript** – Lightweight interactivity
-- **GitHub** – Version control
-- **Vercel** – Deployment and hosting
+```bash
+# Clone
+git clone https://github.com/Akash-Enterprises/akash-enterprises.git
+cd akash-enterprises
 
-No frameworks.  
-No WordPress.  
-No paid libraries.
+# Open locally (no build step required)
+open index.html
+```
+
+No build tools. No dependencies. No setup. Pure HTML/CSS/JS — open `index.html` in any browser.
 
 ---
 
-## 📁 Folder Structure
+## What's in this repo
 
+```
 akash-enterprises/
+├── index.html                    # Homepage
+├── 404.html                      # Custom 404 error page
+├── sitemap.xml                   # Google sitemap (41 URLs)
+├── robots.txt                    # Crawl directives
 │
-├── index.html
-├── README.md
+├── categories/                   # 6 category landing pages
+│   ├── industrial-tarpaulins.html
+│   ├── agro-textiles.html
+│   ├── packaging-logistics.html
+│   ├── ropes-cordage.html
+│   ├── safety-adhesives.html
+│   └── industrial-sheets.html
+│
+├── products/                     # 34 individual product pages
+│   └── *.html
 │
 ├── css/
-│ └── style.css
+│   └── style.css                 # All styles (single file)
 │
 ├── js/
-│ └── main.js
+│   └── main.js                   # Vanilla JS (no deps)
 │
 ├── images/
-│ ├── logo.png
-│ │
-│ ├── categories/
-│ │ └── (category cover images)
-│ │
-│ └── products/
-│ └── (product image folders)
+│   ├── logo.png
+│   ├── home/                     # Hero images
+│   ├── categories/               # Category cover images
+│   └── products/                 # Product photo galleries
 │
-├── categories/
-│ └── (category pages)
+├── docs/                         # Extended documentation
+│   ├── ADDING_PRODUCTS.md
+│   ├── SEO_GUIDE.md
+│   ├── DEPLOYMENT.md
+│   └── ARCHITECTURE.md
 │
-└── products/
-└── (product detail pages)
-
-
----
-
-## 📦 Product Categories
-
-1. Industrial Tarpaulins & Covers  
-2. Packaging & Logistics Essentials  
-3. Ropes, Cordage & Threads  
-4. Agro-Textiles & Landscaping  
-5. Safety, Floor Marking & Adhesives  
-6. Industrial Sheets & Hardware  
-
-Each category has:
-- A dedicated HTML page
-- A clean product grid
-- Click-through navigation to product pages
+└── .github/
+    ├── workflows/ci.yml          # CI: HTML validation on every push
+    ├── scripts/                  # Validation scripts
+    ├── ISSUE_TEMPLATE/           # Bug & content update templates
+    └── pull_request_template.md
+```
 
 ---
 
-## 🚀 How to Run Locally
+## Tech Stack
 
-This is a **static website**. No setup required.
-
-1. Download or clone the repository
-2. Open `index.html` in any modern web browser
-3. All pages will work locally without a server
-
----
-
-## 🌍 Deployment Plan
-
-The website is designed to be deployed using:
-
-- **GitHub** (repository hosting)
-- **Vercel** (static site deployment)
-
-Deployment steps will be added once all product pages are complete.
+| Layer | Choice | Reason |
+|-------|--------|--------|
+| HTML | HTML5 semantic | SEO, accessibility, zero overhead |
+| CSS | Vanilla CSS3 with custom properties | No build step, fast load |
+| JS | Vanilla ES6 | No framework bloat (~3KB) |
+| Hosting | Vercel | Free tier, CDN, auto-HTTPS, GitHub integration |
+| Version control | GitHub | CI/CD, issue tracking, history |
 
 ---
 
-## 📞 Contact Information (Displayed on Website)
+## Product Catalogue
 
-- **Phone:** +91-80898-22421  
-- **WhatsApp:** +91-8089822421  
-- **Email:** akash.enterprises.contact@gmail.com  
-- **Location:** Google Maps link (embedded on site)
+**6 categories · 34 SKUs**
 
----
-
-## 📌 Current Status
-
-✅ Homepage completed  
-✅ Global styling completed  
-✅ All category pages completed  
-⏳ Product detail pages (in progress)  
-
-Once product pages are complete, the site will be ready for deployment.
+| Category | Products |
+|----------|----------|
+| Industrial Tarpaulins & Covers | HDPE, Canvas, Cross-Lamination, Nylon, Geo Membrane Tarpaulin |
+| Agro-Textiles & Landscaping | Agro Shade Net, Shade Net Clips, Weed Mat, Car/Bike Cover, Rain Poncho |
+| Packaging & Logistics Essentials | BOPP Tape, Stretch Film, Bubble Rolls, Corrugated Roll, Woven Sacks, Oxo Garbage Bags, Manual Strapping Kit |
+| Ropes, Cordage & Threads | PP Rope (3-strand), Nylon Rope, Mooring Rope, Sutli/PP Twine, Nylon Thread, Webbing/Lashing Belt |
+| Safety, Floor Marking & Adhesives | Caution Tape, Reflective Tape, Anti-Skid Floor Tape, Masking Tape, Tarpaulin Repair Tape |
+| Industrial Sheets & Hardware | LDPE Sheets, PVC Clear Sheet, Floor Protection Sheet, Cutting Board, Eyelets, Eyelet Press Machine |
 
 ---
 
-## 📄 License
+## Documentation
 
-This project is created exclusively for **Akash Enterprises**.  
-All content, structure, and assets are intended for official business use.
+| Doc | Purpose |
+|-----|---------|
+| [docs/ADDING_PRODUCTS.md](docs/ADDING_PRODUCTS.md) | Step-by-step guide to add a new product page |
+| [docs/SEO_GUIDE.md](docs/SEO_GUIDE.md) | SEO strategy, keyword targets, and metadata rules |
+| [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md) | How to deploy to Vercel, custom domain setup |
+| [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) | Code structure, design decisions, ADRs |
+
+---
+
+## Contact
+
+| Channel | Details |
+|---------|---------|
+| Phone | [+91-80898-22421](tel:+918089822421) |
+| WhatsApp | [+91-80898-22421](https://wa.me/918089822421) |
+| Email | akash.enterprises.contact@gmail.com |
+| Location | [Google Maps](https://maps.app.goo.gl/p9iRKo3NTLmXTcs16) |
+
+---
+
+## Contributing
+
+See [.github/pull_request_template.md](.github/pull_request_template.md) for the PR checklist.
+
+All pushes to `main` are validated by CI. The pipeline checks:
+- HTML structural correctness (42 files)
+- All internal links resolve
+- Sitemap integrity
+- No files over 5MB
+
+---
+
+## License
+
+All content, code, and assets are the exclusive property of Akash Enterprises. Not licensed for reuse.
