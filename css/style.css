@@ -491,6 +491,42 @@ img.loaded { opacity: 1; }
 
 .about-text p { line-height: 1.8; margin-bottom: 1rem; color: var(--text-dark); }
 
+.about-subheading {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--text-dark);
+    margin-top: 1.8rem;
+    margin-bottom: 0.6rem;
+}
+
+.about-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+}
+.about-list li {
+    padding-left: 1.3rem;
+    position: relative;
+    font-size: 0.92rem;
+    line-height: 1.7;
+    color: var(--text-dark);
+}
+.about-list li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0.6em;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--primary);
+    flex-shrink: 0;
+}
+.about-list--wide { max-width: 680px; }
+
 .about-stats-panel {
     background: var(--charcoal-soft);
     border-radius: var(--radius);
