@@ -54,7 +54,14 @@ img.loaded { opacity: 1; }
 
 .logo-area { display: flex; align-items: center; gap: 0.9rem; text-decoration: none; color: inherit; }
 .logo { height: 54px; width: auto; }
-.company-name { font-size: 1.45rem; font-weight: 800; letter-spacing: 0.4px; }
+.company-name {
+    font-size: 1.45rem;
+    font-weight: 800;
+    letter-spacing: 0.4px;
+    display: inline-flex;
+    flex-direction: column;
+    line-height: 1.2;
+}
 
 .main-nav { display: flex; align-items: center; }
 
@@ -302,10 +309,21 @@ img.loaded { opacity: 1; }
     flex-shrink: 0;
 }
 @media (max-width: 640px) {
-    .stats-grid { gap: 0.5rem; }
+    .stats-grid {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        gap: 0.4rem;
+    }
     .stat-divider { display: none; }
-    .stat-item { min-width: 80px; }
-    .stat-number { font-size: 1.2rem; }
+    .stat-item { min-width: 0; }
+    .stat-number { font-size: 1.1rem; }
+    .stat-label { font-size: 0.66rem; }
+    /* Row 1: 3 equal cols; Row 2: 2 centered cols */
+    .stats-grid > .stat-item:nth-child(1)  { grid-column: 1 / 3; }
+    .stats-grid > .stat-item:nth-child(3)  { grid-column: 3 / 5; }
+    .stats-grid > .stat-item:nth-child(5)  { grid-column: 5 / 7; }
+    .stats-grid > .stat-item:nth-child(7)  { grid-column: 1 / 4; }
+    .stats-grid > .stat-item:nth-child(9)  { grid-column: 4 / 7; }
 }
 
 /* ========================================
@@ -629,65 +647,84 @@ img.loaded { opacity: 1; }
 }
 
 /* ========================================
-   WHO WE SUPPLY TO — BULLET LIST
+   WHO WE SUPPLY TO — SEGMENT CARDS v2
 ======================================== */
-.supply-bullets {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 1rem 2.5rem;
-    max-width: 860px;
-    margin: 0 auto;
-}
-@media (max-width: 640px) {
-    .supply-bullets { grid-template-columns: 1fr; gap: 0.85rem; }
-}
-.supply-bullets li {
-    display: flex;
-    gap: 0.75rem;
-    align-items: flex-start;
-    padding: 0.9rem 1rem;
-    background: var(--bg-main);
-    border-radius: var(--radius);
-    border: 1px solid #e5e7eb;
-}
-.supply-bullets li::before {
-    content: '';
-    flex-shrink: 0;
-    width: 6px;
-    height: 6px;
-    border-radius: 50%;
-    background: var(--primary);
-    margin-top: 0.45rem;
-}
-.bullet-title {
-    display: block;
-    font-size: 0.9rem;
-    font-weight: 700;
-    color: var(--text-dark);
-    margin-bottom: 0.2rem;
-    line-height: 1.3;
-}
-.bullet-desc {
-    display: block;
-    font-size: 0.82rem;
-    color: var(--text-muted);
-    line-height: 1.6;
-}
-.supply-bullets li > div,
-.supply-bullets li > span:not(:first-of-type) { flex: 1; }
-.supply-bullets li .bullet-title,
-.supply-bullets li .bullet-desc {
-    /* wrap both in same flex child */
+.supply-section {
+    padding: 4.5rem 0;
+    background: var(--bg-soft);
 }
 
-/* Override: put title+desc in a block container */
-.supply-bullets li {
-    flex-direction: row;
+.supply-segments {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    max-width: 900px;
 }
-.supply-bullets li .bullet-content-wrap { flex: 1; }
+
+.segment-card {
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+    background: var(--bg-main);
+    border: 1px solid #e5e7eb;
+    border-left: 4px solid var(--primary);
+    border-radius: var(--radius);
+    padding: 1.2rem 1.3rem;
+    transition: box-shadow var(--transition), transform var(--transition);
+}
+
+.segment-card:hover {
+    box-shadow: var(--shadow-soft);
+    transform: translateY(-3px);
+}
+
+.segment-icon {
+    font-size: 1.75rem;
+    flex-shrink: 0;
+    line-height: 1;
+    padding-top: 0.1rem;
+    user-select: none;
+}
+
+.segment-body {
+    flex: 1;
+    min-width: 0;
+}
+
+.segment-title {
+    display: block;
+    font-size: 0.92rem;
+    font-weight: 700;
+    color: var(--text-dark);
+    margin-bottom: 0.35rem;
+    line-height: 1.3;
+}
+
+.segment-desc {
+    font-size: 0.82rem;
+    color: var(--text-muted);
+    line-height: 1.65;
+    margin: 0;
+}
+
+/* 5th card: spans full width, centred at half-width on desktop */
+.segment-card--last {
+    grid-column: 1 / -1;
+    max-width: calc(50% - 0.5rem);
+    margin: 0 auto;
+    width: 100%;
+}
+
+@media (max-width: 640px) {
+    .supply-section { padding: 3rem 0; }
+    .supply-segments { grid-template-columns: 1fr; gap: 0.75rem; }
+    .segment-card--last { grid-column: unset; max-width: 100%; margin: 0; }
+    .segment-card { padding: 1rem 1rem 1rem 0.9rem; }
+    .segment-icon { font-size: 1.5rem; }
+}
 
 /* ========================================
    CAROUSEL

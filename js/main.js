@@ -197,6 +197,36 @@ document.addEventListener("DOMContentLoaded", function () {
         });
 
         slideTo(0);
+
+        /* ── auto-slide: 3 s interval, infinite loop, pause on interaction ── */
+        let autoTimer = null;
+
+        function startAuto() {
+            if (autoTimer) return;
+            autoTimer = setInterval(function () {
+                slideTo(current >= maxIndex() ? 0 : current + 1);
+            }, 3000);
+        }
+
+        function stopAuto() {
+            clearInterval(autoTimer);
+            autoTimer = null;
+        }
+
+        /* Pause on hover (desktop) */
+        viewport.addEventListener('mouseenter', stopAuto);
+        viewport.addEventListener('mouseleave', startAuto);
+
+        /* Pause on touch (mobile) — drag handlers already set track.style.transition='none'
+           so we tie into the existing onDragStart / onDragEnd via the viewport listeners */
+        viewport.addEventListener('touchstart', stopAuto, { passive: true });
+        viewport.addEventListener('touchend',   startAuto);
+
+        /* Also pause while a manual prev/next button is being held */
+        if (prevBtn) { prevBtn.addEventListener('mousedown', stopAuto); prevBtn.addEventListener('mouseup', startAuto); }
+        if (nextBtn) { nextBtn.addEventListener('mousedown', stopAuto); nextBtn.addEventListener('mouseup', startAuto); }
+
+        startAuto();
     }
 
     /* Init all carousels on the page */
