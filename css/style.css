@@ -58,8 +58,7 @@ img.loaded { opacity: 1; }
     font-size: 1.45rem;
     font-weight: 800;
     letter-spacing: 0.4px;
-    display: inline-flex;
-    flex-direction: column;
+    display: inline-block;
     line-height: 1.2;
 }
 
@@ -340,7 +339,6 @@ img.loaded { opacity: 1; }
 }
 .section-header h2 { font-size: 1.9rem; margin-bottom: 0.6rem; }
 .section-header p { color: var(--text-muted); font-size: 1rem; }
-/* override:  var(--text-muted); font-size: 1rem; }
 
 .industries-grid {
     display: grid;
