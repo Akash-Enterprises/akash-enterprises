@@ -2,9 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <!-- Preconnect to external origins -->
+    <link rel="preconnect" href="https://www.googletagmanager.com">
+    <link rel="preconnect" href="https://www.google-analytics.com">
+    <link rel="dns-prefetch" href="https://wa.me">
+    <link rel="dns-prefetch" href="https://maps.app.goo.gl">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Akash Enterprises | Industrial Supplier India</title>
-    <meta name="description" content="Akash Enterprises is a trusted B2B and retail supplier of industrial tarpaulins, packaging materials, ropes, and agro-textiles across India. Learn about our expertise, operations, and product range.">
+    <meta name="description" content="Akash Enterprises — Kerala's trusted industrial supplier since 1991. 34 products across 6 categories: tarpaulins, ropes, packaging, agro-textiles, safety tapes, and industrial sheets.">
     <link rel="canonical" href="https://akash-enterprises.vercel.app/about.html">
     <meta property="og:title" content="About Akash Enterprises | Industrial Supplier India">
     <meta property="og:description" content="Trusted supplier of 34 industrial and packaging products across India. B2B and retail. Pan-India supply. WhatsApp-first service.">
@@ -40,6 +45,14 @@
     ]
   }
 }
+    </script>
+    <!-- Google Analytics 4 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-B5J0RW3HCQ"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-B5J0RW3HCQ');
     </script>
 </head>
 <body>
@@ -329,6 +342,6 @@
     <img src="images/whatsapp.svg" alt="WhatsApp" width="32" height="32" loading="lazy">
 </a>
 
-<script src="js/main.js"></script>
+<script src="js/main.js" defer></script>
 </body>
 </html>

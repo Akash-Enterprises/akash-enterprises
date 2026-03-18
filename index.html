@@ -2,10 +2,15 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <!-- Preconnect to external origins -->
+    <link rel="preconnect" href="https://www.googletagmanager.com">
+    <link rel="preconnect" href="https://www.google-analytics.com">
+    <link rel="dns-prefetch" href="https://wa.me">
+    <link rel="dns-prefetch" href="https://maps.app.goo.gl">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Akash Enterprises | Industrial & Packaging Supplier – India</title>
-    <meta name="description" content="Akash Enterprises supplies industrial tarpaulins, ropes, packaging materials, agro textiles, safety tapes, and LDPE/PVC sheets across India. Call +91-80898-22421 for bulk enquiries.">
+    <meta name="description" content="Akash Enterprises — Kerala's industrial supplier since 1991. Bulk-ready tarpaulins, ropes, packaging, agro-nets, safety tapes, and LDPE sheets. Pan-India supply. Call +91-80898-22421.">
     <meta name="keywords" content="industrial tarpaulin supplier India, HDPE tarpaulin, packaging materials, agro shade net, PP rope, BOPP tape, industrial supplier Kerala">
     <meta name="robots" content="index, follow">
 
@@ -30,7 +35,7 @@
     <meta name="twitter:description" content="Supplying industrial tarpaulins, ropes, packaging materials, agro textiles, and safety tapes across India.">
 
     <!-- Preload hero image for LCP -->
-    <link rel="preload" as="image" href="images/home/homepage-hero-agro-protection.jpg">
+    <link rel="preload" as="image" href="images/home/homepage-hero-agro-protection.jpg" fetchpriority="high">
 
     <!-- Styles -->
     <link rel="stylesheet" href="css/style.css">
@@ -193,6 +198,14 @@
     "@id": "https://akash-enterprises.vercel.app/#business"
   }
 }
+    </script>
+    <!-- Google Analytics 4 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-B5J0RW3HCQ"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-B5J0RW3HCQ');
     </script>
 </head>
 <body>
@@ -427,6 +440,6 @@
     <img src="images/whatsapp.svg" alt="WhatsApp" width="32" height="32" loading="lazy">
 </a>
 
-<script src="js/main.js"></script>
+<script src="js/main.js" defer></script>
 </body>
 </html>

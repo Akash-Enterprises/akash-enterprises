@@ -2,6 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <!-- Preconnect to external origins -->
+    <link rel="preconnect" href="https://www.googletagmanager.com">
+    <link rel="preconnect" href="https://www.google-analytics.com">
+    <link rel="dns-prefetch" href="https://wa.me">
+    <link rel="dns-prefetch" href="https://maps.app.goo.gl">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Page Not Found | Akash Enterprises</title>
     <meta name="description" content="The page you are looking for could not be found. Return to Akash Enterprises homepage to explore our industrial and packaging products.">
@@ -13,6 +18,14 @@
     <meta property="og:description" content="Return to Akash Enterprises to explore industrial tarpaulins, ropes, packaging materials and more.">
     <meta property="og:image" content="https://akash-enterprises.vercel.app/images/logo.png">
     <link rel="stylesheet" href="css/style.css">
+    <!-- Google Analytics 4 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-B5J0RW3HCQ"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-B5J0RW3HCQ');
+    </script>
 </head>
 <body>
 <header class="site-header">
@@ -46,6 +59,6 @@
         <p>&copy; 2026 Akash Enterprises. All rights reserved.</p>
     </div>
 </footer>
-<script src="js/main.js"></script>
+<script src="js/main.js" defer></script>
 </body>
 </html>

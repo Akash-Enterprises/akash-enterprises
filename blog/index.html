@@ -2,9 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <!-- Preconnect to external origins -->
+    <link rel="preconnect" href="https://www.googletagmanager.com">
+    <link rel="preconnect" href="https://www.google-analytics.com">
+    <link rel="dns-prefetch" href="https://wa.me">
+    <link rel="dns-prefetch" href="https://maps.app.goo.gl">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Buying Guides &amp; Product Advice | Akash Enterprises</title>
-    <meta name="description" content="Expert buying guides for industrial tarpaulins, packaging materials, ropes, and agro-textiles from Akash Enterprises — helping you choose the right product for your requirement.">
+    <meta name="description" content="Expert buying guides for industrial tarpaulins, packaging materials, ropes, and agro-textiles from Akash Enterprises. Choose the right product for your requirement.">
     <link rel="canonical" href="https://akash-enterprises.vercel.app/blog/index.html">
     <meta property="og:title" content="Buying Guides | Akash Enterprises">
     <meta property="og:description" content="Expert guides on choosing the right tarpaulin GSM, packing materials, and industrial products for your business.">
@@ -39,6 +44,14 @@
     }
   ]
 }
+    </script>
+    <!-- Google Analytics 4 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-B5J0RW3HCQ"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-B5J0RW3HCQ');
     </script>
 </head>
 <body>
@@ -119,6 +132,6 @@
     <img src="../images/whatsapp.svg" alt="WhatsApp" width="32" height="32" loading="lazy">
 </a>
 
-<script src="../js/main.js"></script>
+<script src="../js/main.js" defer></script>
 </body>
 </html>
