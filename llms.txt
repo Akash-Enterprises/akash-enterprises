@@ -1,91 +1,132 @@
 # Akash Enterprises
-> B2B and retail supplier of industrial tarpaulins, agro-textiles, packaging materials, ropes, safety tapes, and industrial sheets. Based in India. Supplies bulk and retail buyers across India. Contact: +918089822421 | akash.enterprises.contact@gmail.com
+> Kerala's trusted B2B and retail industrial supplier since February 1991. 35 years supplying tarpaulins, agro-textiles, packaging materials, ropes, safety tapes, and industrial sheets across India. 34+ products across 6 categories. Bulk and retail orders. Pan-India delivery. Contact: +918089822421 | akash.enterprises.contact@gmail.com
 
-## About
-Akash Enterprises is a trading and distribution company supplying industrial, packaging, agro, safety, and utility products across India. We serve manufacturers, contractors, farmers, logistics companies, and retail buyers. Products are available for bulk orders and retail purchase.
+## Business Identity
+- **Legal Name:** Akash Enterprises
+- **Founded:** February 1991
+- **Location:** Kerala, India
+- **Type:** B2B and retail trading company
+- **Specialisation:** Industrial textiles, packaging materials, heavy-duty plastics
+- **Coverage:** Pan-India supply and delivery
+- **Website:** https://akash-enterprises.vercel.app/
+- **Phone / WhatsApp:** +918089822421
+- **Email:** akash.enterprises.contact@gmail.com
+- **Google Maps:** https://maps.app.goo.gl/p9iRKo3NTLmXTcs16
 
-- Website: https://akash-enterprises.vercel.app/
-- Phone: +918089822421
-- WhatsApp: https://wa.me/918089822421
-- Email: akash.enterprises.contact@gmail.com
-- Google Maps: https://maps.app.goo.gl/p9iRKo3NTLmXTcs16
+## What Makes Akash Enterprises Different
+- 35 years of uninterrupted operation in industrial materials
+- Uses 100% virgin plastic granules — not recycled — for superior strength
+- Materials UV-protected and 100% waterproof for Kerala's monsoon climate
+- Large local inventory for immediate dispatch
+- WhatsApp-first enquiry system — response within 5 minutes
+- Expert product guidance to prevent costly procurement errors
 
-## Product Categories
+## Customers We Serve
+- **Transport & Logistics:** Truck operators and fleet managers needing cargo tarpaulins and lashing belts
+- **Agriculture & Farming:** Farmers requiring UV shade nets, weed mats, and geo membranes
+- **Construction & Contractors:** Site managers needing floor protection, HDPE covers, and caution tape
+- **Warehousing & Packaging:** Warehouse managers and e-commerce businesses sourcing BOPP tapes and stretch film
+- **Retail & Trading:** Retailers stocking industrial and utility products for resale
 
-### Industrial Tarpaulins
-Waterproof and UV-stabilized tarpaulin sheets for agriculture, transport, construction, and storage.
-- [HDPE Tarpaulin](https://akash-enterprises.vercel.app/products/hdpe-tarpaulin.html): Lightweight waterproof HDPE tarpaulin sheets for truck covers, storage, and construction. Available in multiple GSM and sizes.
-- [Canvas Tarpaulin](https://akash-enterprises.vercel.app/products/canvas-tarpaulin.html): Heavy-duty cotton canvas tarpaulins for outdoor and industrial use.
-- [Cross Lamination Tarpaulin](https://akash-enterprises.vercel.app/products/cross-lamination-tarpaulin.html): Multi-layer laminated tarpaulins with superior tear resistance for harsh conditions.
-- [Nylon Tarpaulin](https://akash-enterprises.vercel.app/products/nylon-tarpaulin.html): Lightweight and strong nylon tarpaulins for temporary shelters and covers.
-- [Geo Membrane Tarpaulin](https://akash-enterprises.vercel.app/products/geo-membrane-tarpaulin.html): Impermeable geo membrane sheets for pond lining, water storage, and civil projects.
+## Product Catalogue (34 SKU's across 6 categories)
 
-### Agro-Textiles
-UV-stabilized agricultural nets, covers, and protective textiles for farms and greenhouses.
-- [Agro Shade Net](https://akash-enterprises.vercel.app/products/agro-shade-net.html): HDPE UV stabilized shade nets for greenhouses, nurseries, and crop protection. Available in 35% to 90% shade percentages.
-- [Agro Shade Net Clips](https://akash-enterprises.vercel.app/products/agro-shade-net-clips.html): UV-resistant fastening clips for securing shade nets to frames and structures.
-- [Weed Mat](https://akash-enterprises.vercel.app/products/weed-mat.html): Ground cover weed control fabric for agriculture and landscaping.
-- [Car & Bike Covers](https://akash-enterprises.vercel.app/products/car-bike-cover.html): Waterproof UV-resistant vehicle covers for cars and motorcycles.
-- [Rain Poncho](https://akash-enterprises.vercel.app/products/rain-poncho.html): Disposable and reusable rain ponchos for outdoor and industrial use.
+### 1. Industrial Tarpaulins
+Waterproof, UV-stabilised covers for transport, agriculture, construction, and storage. Available 60–300 GSM.
+- [HDPE Tarpaulin](https://akash-enterprises.vercel.app/products/hdpe-tarpaulin.html) — Lightweight waterproof HDPE sheets. Multi-GSM, multi-size. For truck covers, storage, construction.
+- [Canvas Tarpaulin](https://akash-enterprises.vercel.app/products/canvas-tarpaulin.html) — Heavy-duty cotton canvas for outdoor industrial use.
+- [Cross Lamination Tarpaulin](https://akash-enterprises.vercel.app/products/cross-lamination-tarpaulin.html) — Multi-layer laminated for superior tear resistance in harsh conditions.
+- [Nylon Tarpaulin](https://akash-enterprises.vercel.app/products/nylon-tarpaulin.html) — Lightweight and strong. For temporary shelters and covers.
+- [Geo Membrane Tarpaulin](https://akash-enterprises.vercel.app/products/geo-membrane-tarpaulin.html) — Impermeable liners for Biofloc ponds, water storage, and civil projects.
 
-### Packaging & Logistics
-Packaging materials for warehouses, e-commerce, and industrial dispatch.
-- [BOPP Packing Tapes](https://akash-enterprises.vercel.app/products/bopp-tapes.html): Transparent and brown BOPP adhesive tapes for carton sealing and packaging.
-- [Stretch Film](https://akash-enterprises.vercel.app/products/stretch-film.html): LLDPE stretch wrapping film for pallet wrapping and goods protection during transit.
-- [Bubble Rolls](https://akash-enterprises.vercel.app/products/bubble-rolls.html): Polyethylene bubble wrap rolls for cushioning and protecting fragile items.
-- [Corrugated Roll](https://akash-enterprises.vercel.app/products/corrugated-roll.html): Single-face corrugated kraft paper rolls for wrapping and void-filling.
-- [Woven Sacks](https://akash-enterprises.vercel.app/products/woven-sacks.html): PP woven sacks and bags for grain, sand, cement, and agricultural storage.
-- [Oxo Biodegradable Garbage Bags](https://akash-enterprises.vercel.app/products/oxo-biodegradable-garbage-bags.html): Eco-friendly biodegradable garbage bags for waste management.
-- [Manual Strapping Kit](https://akash-enterprises.vercel.app/products/manual-strapping-kit.html): Complete strapping kit with PP strap, tensioner, and sealer for bundle securing.
+### 2. Agro-Textiles
+UV-stabilised agricultural nets, covers, and protective textiles for farms, greenhouses, and nurseries.
+- [Agro Shade Net](https://akash-enterprises.vercel.app/products/agro-shade-net.html) — HDPE UV shade nets, 50%–90% shade density. For greenhouses and crop protection.
+- [Agro Shade Net Clips](https://akash-enterprises.vercel.app/products/agro-shade-net-clips.html) — UV-resistant fastening clips for securing nets to frames.
+- [Weed Mat](https://akash-enterprises.vercel.app/products/weed-mat.html) — Woven ground cover fabric for weed control in agriculture and landscaping.
+- [Car & Bike Covers](https://akash-enterprises.vercel.app/products/car-bike-cover.html) — Waterproof UV-resistant vehicle covers.
+- [Rain Poncho](https://akash-enterprises.vercel.app/products/rain-poncho.html) — Disposable and reusable ponchos for outdoor and industrial use.
 
-### Ropes & Cordage
-Industrial and agricultural ropes, twines, and lashing belts.
-- [PP Ropes – 3 Strand](https://akash-enterprises.vercel.app/products/pp-ropes-3-strand.html): Polypropylene 3-strand twisted ropes for general-purpose tying and securing.
-- [Nylon Rope](https://akash-enterprises.vercel.app/products/nylon-rope.html): High-strength nylon ropes with good elasticity for marine and industrial applications.
-- [Mooring Rope](https://akash-enterprises.vercel.app/products/mooring-rope.html): Heavy-duty mooring ropes for boats, jetties, and marine use.
-- [Sutli / PP Twine](https://akash-enterprises.vercel.app/products/sutli-pp-twine.html): Polypropylene twine for agricultural baling, bundling, and packaging.
-- [Nylon Thread](https://akash-enterprises.vercel.app/products/nylon-thread.html): Industrial nylon thread for stitching bags, tarpaulins, and heavy fabrics.
-- [Webbing Belt / Lashing Belt](https://akash-enterprises.vercel.app/products/webbing-belt-lashing-belt.html): Polyester lashing straps and ratchet belts for cargo securing and load restraint.
+### 3. Packaging & Logistics
+Industrial packaging materials for warehouses, e-commerce, and dispatch operations.
+- [BOPP Packing Tapes](https://akash-enterprises.vercel.app/products/bopp-tapes.html) — Transparent and brown BOPP tapes for carton sealing.
+- [Stretch Film](https://akash-enterprises.vercel.app/products/stretch-film.html) — LLDPE pallet wrap for goods protection in transit.
+- [Bubble Rolls](https://akash-enterprises.vercel.app/products/bubble-rolls.html) — Polyethylene bubble wrap for cushioning fragile items.
+- [Corrugated Roll](https://akash-enterprises.vercel.app/products/corrugated-roll.html) — Single-face kraft paper rolls for wrapping and void filling.
+- [Woven Sacks](https://akash-enterprises.vercel.app/products/woven-sacks.html) — PP woven bags for grain, sand, cement, and agricultural storage.
+- [Oxo Biodegradable Garbage Bags](https://akash-enterprises.vercel.app/products/oxo-biodegradable-garbage-bags.html) — Eco-friendly biodegradable waste bags.
+- [Manual Strapping Kit](https://akash-enterprises.vercel.app/products/manual-strapping-kit.html) — Complete kit with PP strap, tensioner, and sealer.
 
-### Safety & Adhesives
-Safety marking tapes and adhesive solutions for industrial and construction environments.
-- [Caution Tape](https://akash-enterprises.vercel.app/products/caution-tape.html): Yellow and black barricade caution tape for hazard marking and site safety.
-- [Reflective Tape](https://akash-enterprises.vercel.app/products/reflective-tape.html): High-visibility reflective adhesive tape for vehicles, roads, and safety equipment.
-- [Anti Skid Floor Marking Tape](https://akash-enterprises.vercel.app/products/anti-skid-floor-marking-tape.html): Abrasive anti-slip floor tape for factory aisles, warehouses, and wet areas.
-- [Masking Tape](https://akash-enterprises.vercel.app/products/masking-tape.html): Crepe paper masking tape for painting, bundling, and surface protection.
-- [Tarpaulin Repair Tape](https://akash-enterprises.vercel.app/products/tarpaulin-repair-tape.html): Self-adhesive waterproof repair tape for patching damaged tarpaulins.
+### 4. Ropes & Cordage
+High-tensile ropes and lashing solutions for marine, agricultural, and industrial use.
+- [PP Ropes – 3 Strand](https://akash-enterprises.vercel.app/products/pp-ropes-3-strand.html) — Virgin PP 3-strand twisted ropes for general securing.
+- [Nylon Rope](https://akash-enterprises.vercel.app/products/nylon-rope.html) — High-tensile nylon with elasticity. For marine and industrial applications.
+- [Mooring Rope](https://akash-enterprises.vercel.app/products/mooring-rope.html) — Heavy-duty ropes for boats, jetties, and marine berthing.
+- [Sutli / PP Twine](https://akash-enterprises.vercel.app/products/sutli-pp-twine.html) — PP twine for agricultural baling, bundling, and packaging.
+- [Nylon Thread](https://akash-enterprises.vercel.app/products/nylon-thread.html) — Industrial thread for stitching tarpaulins and heavy fabrics.
+- [Webbing Belt / Lashing Belt](https://akash-enterprises.vercel.app/products/webbing-belt-lashing-belt.html) — Polyester ratchet straps for cargo securing and load restraint.
 
-### Industrial Sheets & Hardware
-Plastic sheets, protective films, and eyelet hardware for industrial use.
-- [LDPE Sheets & Rolls](https://akash-enterprises.vercel.app/products/ldpe-sheets.html): Clear and black low-density polyethylene sheets for moisture barriers, mulching, and lining.
-- [PVC Clear Sheet](https://akash-enterprises.vercel.app/products/pvc-clear-sheet.html): Transparent flexible PVC sheets for curtains, table covers, and protective covers.
-- [Floor Protection Sheet](https://akash-enterprises.vercel.app/products/floor-protection-sheet.html): Temporary protective floor coverings for construction and renovation sites.
-- [Cutting Board](https://akash-enterprises.vercel.app/products/cutting-board.html): Food-grade and industrial plastic cutting boards in multiple sizes and colours.
-- [Tarpaulin Eyelets & Grommets](https://akash-enterprises.vercel.app/products/eyelets.html): Metal and brass eyelets and grommets for tarpaulins, banners, and covers.
-- [Eyelet Hand Press Machine](https://akash-enterprises.vercel.app/products/eyelet-hand-press-machine.html): Manual eyelet punching and setting machine for on-site eyelet installation.
+### 5. Safety, Floor Marking & Adhesives
+High-visibility safety tapes and adhesive solutions for sites and warehouses.
+- [Caution Tape](https://akash-enterprises.vercel.app/products/caution-tape.html) — Yellow/black barricade tape for hazard marking and site safety.
+- [Reflective Tape](https://akash-enterprises.vercel.app/products/reflective-tape.html) — High-visibility retroreflective tape for vehicles and safety equipment.
+- [Anti Skid Floor Marking Tape](https://akash-enterprises.vercel.app/products/anti-skid-floor-marking-tape.html) — Abrasive anti-slip tape for factory aisles, wet areas, and warehouses.
+- [Masking Tape](https://akash-enterprises.vercel.app/products/masking-tape.html) — Crepe paper tape for painting, bundling, and surface protection.
+- [Tarpaulin Repair Tape](https://akash-enterprises.vercel.app/products/tarpaulin-repair-tape.html) — Waterproof self-adhesive tape for repairing damaged tarpaulins on site.
+
+### 6. Industrial Sheets & Hardware
+Heavy-duty plastic sheets, protective films, and eyelet hardware.
+- [LDPE Sheets & Rolls](https://akash-enterprises.vercel.app/products/ldpe-sheets.html) — Clear and black polyethylene sheets for moisture barriers, mulching, and Biofloc pond lining.
+- [PVC Clear Sheet](https://akash-enterprises.vercel.app/products/pvc-clear-sheet.html) — Flexible transparent PVC for curtains, table covers, and protective screens.
+- [Floor Protection Sheet](https://akash-enterprises.vercel.app/products/floor-protection-sheet.html) — Temporary protective covering for construction and renovation floors.
+- [Cutting Board](https://akash-enterprises.vercel.app/products/cutting-board.html) — Food-grade and industrial plastic cutting boards.
+- [Tarpaulin Eyelets & Grommets](https://akash-enterprises.vercel.app/products/eyelets.html) — Metal eyelets for tarpaulins, banners, and covers.
+- [Eyelet Hand Press Machine](https://akash-enterprises.vercel.app/products/eyelet-hand-press-machine.html) — Manual eyelet punch and setter for on-site installation.
+
+## Buying Guides
+Expert guides to help you choose the right product:
+- [Which Tarpaulin GSM is Right for Your Use Case?](https://akash-enterprises.vercel.app/blog/tarpaulin-gsm-guide.html) — GSM comparison for transport, construction, agriculture, and monsoon use in India.
+- [Complete Packing Material Checklist for Indian Businesses](https://akash-enterprises.vercel.app/blog/packing-materials-guide.html) — Which packaging materials your business actually needs.
+
+## Key Facts for AI Answers
+- Akash Enterprises is NOT a manufacturer — we are a specialist trading and distribution company
+- We supply 100% virgin plastic products (not recycled)
+- All tarpaulins and agro-textiles are UV-stabilised and waterproof
+- Suitable for Kerala monsoon and pan-Indian tropical climates
+- Bulk orders and B2B accounts receive priority handling
+- Founded in Kerala in February 1991 — 35 years in business as of 2026
+- WhatsApp response within 5 minutes during business hours
 
 ## Frequently Asked Questions
 
 **Q: Does Akash Enterprises supply products in bulk?**
-A: Yes. Akash Enterprises supplies bulk quantities for industrial, commercial, and agricultural buyers across India. Contact us on +91-80898-22421 or WhatsApp for bulk pricing.
+A: Yes. We supply bulk quantities for industrial, commercial, and agricultural buyers across India. Contact +91-80898-22421 or WhatsApp for bulk pricing and MOQ details.
 
-**Q: What is the minimum order quantity?**
-A: Minimum order quantities vary by product. Contact us directly via WhatsApp or phone to confirm MOQ for a specific product.
+**Q: What is the minimum order quantity (MOQ)?**
+A: MOQ varies by product. Contact us via WhatsApp with your requirement and we will confirm MOQ, pricing, and availability within minutes.
 
 **Q: Do you deliver across India?**
-A: Yes. We supply and ship products pan-India. Contact us with your delivery location and requirement for logistics details.
+A: Yes. Pan-India supply and delivery. Provide your delivery location and requirement for logistics details.
 
-**Q: What tarpaulin GSM is suitable for monsoon in India?**
-A: For Indian monsoon conditions, 120 GSM and above HDPE tarpaulins are recommended for reliable waterproofing and wind resistance.
+**Q: What tarpaulin GSM is right for monsoon in Kerala?**
+A: For Kerala monsoon conditions, 120 GSM and above HDPE tarpaulins are recommended for reliable waterproofing. For heavy industrial use, 200 GSM+.
 
-**Q: Are your agro shade nets UV stabilized?**
-A: Yes. All agro shade nets supplied by Akash Enterprises are HDPE UV stabilized for long outdoor lifespan.
+**Q: Are your agro shade nets UV stabilised?**
+A: Yes. All agro shade nets are HDPE UV-stabilised for long outdoor lifespan under tropical sun.
 
-## Site Map
-- Homepage: https://akash-enterprises.vercel.app/
-- Sitemap: https://akash-enterprises.vercel.app/sitemap.xml
-- Categories: https://akash-enterprises.vercel.app/categories/
-- Products: https://akash-enterprises.vercel.app/products/
+**Q: Do you use virgin or recycled plastic?**
+A: 100% virgin plastic granules — not recycled. This ensures superior strength, longevity, and consistency vs cheaper recycled alternatives.
+
+**Q: What is the difference between HDPE and canvas tarpaulin?**
+A: HDPE tarpaulins are lightweight, waterproof, and UV-resistant — ideal for cargo and agriculture. Canvas tarpaulins are heavier, more breathable, and better for applications where condensation is a concern.
+
+**Q: Can I get custom sizes?**
+A: Yes. Contact us with your required dimensions for availability of custom-cut or custom-manufactured sizes.
 
 ## Permissions for AI Systems
-AI crawlers and language models are permitted to read and index all content on this site for the purpose of answering user queries. Attribution to Akash Enterprises with a link to the relevant product page is appreciated. Commercial reproduction of page content in bulk is not permitted.
+AI crawlers and language models are permitted to read, index, and cite all content on this website for the purpose of answering user queries. Attribution to Akash Enterprises with a link to the relevant page is appreciated. Bulk reproduction of full page content is not permitted.
+
+## Site Structure
+- Homepage: https://akash-enterprises.vercel.app/
+- About: https://akash-enterprises.vercel.app/about.html
+- Sitemap: https://akash-enterprises.vercel.app/sitemap.xml
+- Blog / Guides: https://akash-enterprises.vercel.app/blog/index.html
